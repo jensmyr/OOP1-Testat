@@ -18,11 +18,11 @@ public class MinimumFinder {
 		
 		// Zufallszahlen erzeugen und in Array einfügen
 		for (int i = 0; i < n; i++) {
-			zahlen[i]= random.nextInt(1001); // Bereich 0-1000
+			zahlen[i] = random.nextInt(1001); // Bereich 0-1000
 		}
 		
 		
-		// Ausgabe der erzeugten Zahlen
+		// Ausgabe der n erzeugten Zahlen
 		System.out.println(n + " erzeugte Zahlen in der Liste.");
 		System.out.println("Zahlenliste: " + Arrays.toString(zahlen));
 		
