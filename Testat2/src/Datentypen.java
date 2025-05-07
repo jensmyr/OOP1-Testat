@@ -27,17 +27,17 @@ public class Datentypen {
 		System.out.println("Int < 10: " + (intNumber < 10) + "\n");
 		
 		// long: 64 Bit - Ganze Zahl (-9.223.372.036.854.775.808 bis +9.223.372.036.854.775.807)
-		long longNumber = 9223372036854775807l;
+		long longNumber = 9223372036854775807l; // Zahl mit l-Suffix kennzeichnen, damit Compiler Zahl als Long-Datentyp erkennt
 		System.out.println("Long: " + longNumber);
 		System.out.println("Long modulo 7: " + (longNumber % 7) + "\n");
 		
 		// float: 32 Bit - Gleitkommazahl (1,40239846E-45 bis 3,40282347E+38)
-		float floatNumber = 3.40282347e38f;
+		float floatNumber = 3.40282347e38f; // Zahl mit f-Suffix kennzeichnen, damit Compiler Zahl als Float-Datentyp erkennt
 		System.out.println("Float: " + floatNumber);
 		System.out.println("Float Division mit 10E+27: " + (floatNumber / 10e27f) + "\n");
 		
 		// double: 64 Bit - Gleitkommazahl (4,94065645841246544E-324 bis 1,79769131486231570E+308)
-		double doubleNumber = 3.14159d;
+		double doubleNumber = 3.14159d; // Zahl mit d-Suffix kennzeichnen, damit Compiler die Zahl als Double-Datentyp erkennt
 		System.out.println("Double: " + doubleNumber);
 		System.out.println("Double Vergleich mit PI: " + (doubleNumber == Math.PI));
 		
